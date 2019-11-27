@@ -1,0 +1,9 @@
+Buttons:
+h - Displays this text.
+w - Left pad up.
+s - Left pad down.
+o - Right pad up.
+l - Right pad down.
+1 to 6 - Colors.
+space/enter - Pause.
+esc - Exit.
