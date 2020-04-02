@@ -31,10 +31,10 @@ function ball:movements(dt)
 	ball.y = ball.y + ball.speed_y * love.timer.getDelta()
 
 	-- limiting speed
-	if ball.speed_x > -400 and ball.speed_x < 0 then
-		ball.speed_x = math.random(-400, -500)
-	elseif ball.speed_x < 400 and ball.speed_x > 0 then
-		ball.speed_x = math.random(400, 500)
+	if ball.speed_x > -600 and ball.speed_x < 0 then
+		ball.speed_x = math.random(-600, -650)
+	elseif ball.speed_x < 600 and ball.speed_x > 0 then
+		ball.speed_x = math.random(600, 650)
 	elseif ball.speed_x < -1400 and ball.speed_x < 0 then
 		ball.speed_x = math.random(-1350, -1400)
 	elseif ball.speed_x > 1400 and ball.speed_x > 0 then
